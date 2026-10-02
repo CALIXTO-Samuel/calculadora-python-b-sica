@@ -182,6 +182,8 @@ formulas.txt
 
 ---
 
+![Demonstração da calculadora](demo.png)
+
 ##  Estrutura do Projeto
 
 ```text
