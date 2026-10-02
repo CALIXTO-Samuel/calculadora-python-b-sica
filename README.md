@@ -65,13 +65,13 @@ cd calculadora-python-b-sica
 ### 3. Execute a calculadora
 
 ```bash
-python3 calculadora.py
+python3 calculadora 1.py
 ```
 
 Em alguns computadores, também pode ser utilizado:
 
 ```bash
-python calculadora.py
+python calculadora 1.py
 ```
 
 ---
@@ -199,7 +199,7 @@ calculadora-python-b-sica/
 
 ### Principais arquivos
 
-**`calculadora.py`**
+**`calculadora 1.py`**
 
 É o arquivo principal do projeto. Contém o código da calculadora e todas as operações disponíveis.
 
