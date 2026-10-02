@@ -65,13 +65,13 @@ cd calculadora-python-b-sica
 ### 3. Execute a calculadora
 
 ```bash
-python3 calculadora 1.py
+python3 "calculadora 1.py"
 ```
 
 Em alguns computadores, também pode ser utilizado:
 
 ```bash
-python calculadora 1.py
+python "calculadora 1.py"
 ```
 
 ---
