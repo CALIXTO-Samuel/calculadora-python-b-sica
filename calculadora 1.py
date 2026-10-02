@@ -2,7 +2,7 @@
 #data: 20/01/2026
 import math
 
-sinal = input('bem vindo a calculadora. escolha um sinal: +, -, /, *, **(elevado), RQ(raiz quadrada) ou o PI(valor de PI(20 casas depois da virgula)): ')
+sinal = input('bem vindo a calculadora. escolha um sinal: +, -, /, *, **(elevado), RQ(raiz quadrada), PI(valor de PI(20 casas depois da virgula)) ou F para salvar uma fórmula nova: ').upper()
 
 if sinal == '*':
     num1M = float(input('escreva o primeiro número: '))
@@ -45,4 +45,8 @@ if sinal == 'PI':
     valor_pi = math.pi
     round(valor_pi, 20)
     print(valor_pi)
-    
+
+if sinal == 'F':
+    formula = input('Escreva a fórmula a ser salva: ')
+    with open('formulas.txt', 'a') as arquivo:
+        arquivo.write(formula + '\n')
