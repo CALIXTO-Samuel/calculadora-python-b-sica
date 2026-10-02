@@ -182,7 +182,9 @@ formulas.txt
 
 ---
 
-![Demonstração da calculadora](demo.png)
+## 📸 Demonstração
+
+![Demonstração da calculadora](assets/demo.png)
 
 ##  Estrutura do Projeto
 
